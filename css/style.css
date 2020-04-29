@@ -1,0 +1,93 @@
+* {padding: 0; margin: 0;}
+body, html{
+    height: 100%;
+    margin: 0;
+}
+.bg{
+    background-image: url('pine.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nav{
+    width: 100%;
+    position: absolute;
+}
+.nav li{
+    float: left;
+    list-style: none;
+}
+.nav li a{
+    color: cornsilk;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    font-weight: bold;
+    border-bottom: solid transparent;
+}
+.nav li a:hover{
+    background: cornsilk;
+    color: dimgray;
+}
+.center ul{
+    width: fit-content;
+    margin: auto;
+}
+li a.active{
+    border-bottom: 2px solid cornsilk;
+}
+.caption{
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    color: cornsilk;
+    text-align: center;
+}
+img{
+    padding-top: 20px;
+    width: 75.50px;
+    height: 31.00px;
+    display: block;
+    margin: auto;
+}
+h1{
+    font-family: arial black;
+    font-size: 80px;
+}
+h3, h5{
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: cornsilk;
+    text-align: center;
+ }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    color: cornsilk;
+  }
+  
+  .fa-twitter {
+    color: cornsilk;
+  }
+  
+  .fa-instagram {
+    color: cornsilk;
+  }

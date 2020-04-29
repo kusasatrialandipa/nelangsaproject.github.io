@@ -1,0 +1,99 @@
+* {padding: 0; margin: 0;}
+body, html{
+    height: 100%;
+    margin: 0;
+    background-color: cornsilk;
+}
+.nav{
+    width: 100%;
+    position: absolute;
+}
+.nav li{
+    float: left;
+    list-style: none;
+}
+.nav li a{
+    color: dimgray;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+}
+.nav li a:hover{
+    background: dimgray;
+    color: cornsilk;
+}
+.center ul{
+    width: fit-content;
+    margin: auto;
+}
+li a.active{
+    border-bottom: 2px solid dimgray;
+}
+img{
+    padding-top: 20px;
+    width: 75.50px;
+    height: 31.00px;
+    display: block;
+    margin: auto;
+}
+.main{
+    color: dimgray;
+    width:80%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 15%;
+    text-align: center;
+
+}
+.content{
+    color: dimgray;
+    width:80%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 10%;
+    text-align: center;
+}
+.content img{
+    padding-top: 20px;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: dimgray;
+    text-align: center;
+ }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    color: dimgray;
+  }
+  
+  .fa-twitter {
+    color: dimgray;
+  }
+  
+  .fa-instagram {
+    color: dimgray;
+  }
